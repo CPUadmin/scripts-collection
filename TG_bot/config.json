@@ -1,0 +1,14 @@
+{
+  "BOT_TOKEN": "7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4",
+  "CHAT_ID": "314609021",
+  "autotrack": {
+    "enabled": true,
+    "hours": 0,
+    "minutes": 1
+  },
+  "daily_trackozon": {
+    "enabled": true,
+    "hour": 16,
+    "minute": 26
+  }
+}

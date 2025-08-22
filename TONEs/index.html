@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Альфа-котик — ту-ту-тсс</title>
+</head>
+<body>
+  <h2>🎧 Альфа-бит (ту ту тсс)</h2>
+  <button onclick="startAlphaCat()">▶️ Играть</button>
+  <button onclick="stopMusic()">⏹️ Стоп</button>
+
+  <script src="https://unpkg.com/tone@latest/build/Tone.js"></script>
+
+  <script>
+    let loops = [];
+    let synths = [];
+
+    function clearAudio() {
+      loops.forEach(id => Tone.Transport.clear(id));
+      loops = [];
+      synths.forEach(s => s.dispose?.());
+      synths = [];
+    }
+
+    function stopMusic() {
+      Tone.Transport.stop();
+      clearAudio();
+      Tone.Transport.cancel();
+    }
+
+    const _schedule = Tone.Transport.scheduleRepeat;
+    Tone.Transport.scheduleRepeat = function (callback, interval, time) {
+      const id = _schedule.call(Tone.Transport, callback, interval, time);
+      loops.push(id);
+      return id;
+    };
+
+    async function startAlphaCat() {
+      await Tone.start();
+      stopMusic();
+      Tone.Transport.bpm.value = 90;
+
+      const drums = new Tone.Players({
+        kick: "https://tonejs.github.io/audio/drum-samples/breakbeat808/kick.mp3",
+        hat: "https://tonejs.github.io/audio/drum-samples/breakbeat808/hihat.mp3"
+      }).toDestination();
+
+      await drums.load();
+
+      const pattern = [
+        "kick", "kick", "hat", null,
+        "kick", "kick", "hat", null
+      ];
+
+      let step = 0;
+      loops.push(Tone.Transport.scheduleRepeat(time => {
+        const sound = pattern[step % pattern.length];
+        if (sound) drums.player(sound).start(time);
+        step++;
+      }, "8n"));
+
+      const bass = new Tone.MonoSynth({
+        oscillator: { type: "square" },
+        envelope: { attack: 0.01, decay: 0.3, sustain: 0.2, release: 0.8 }
+      }).toDestination();
+      synths.push(bass);
+
+      const bassline = ["A1", null, "C2", null, "G1", null, null, null];
+      let i = 0;
+      loops.push(Tone.Transport.scheduleRepeat(time => {
+        const note = bassline[i % bassline.length];
+        if (note) bass.triggerAttackRelease(note, "8n", time);
+        i++;
+      }, "8n"));
+
+      Tone.Transport.start();
+    }
+  </script>
+</body>
+</html>

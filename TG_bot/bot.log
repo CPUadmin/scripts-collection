@@ -1,0 +1,502 @@
+2025-06-10 16:12:01,628 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 16:12:02,090 - root - ERROR - ⚠️ Не удалось импортировать function2: invalid syntax (event_translations.py, line 12)
+2025-06-10 16:12:02,091 - root - ERROR - Traceback (most recent call last):
+  File "c:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 97, in load_functions
+    module = importlib.import_module(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1147, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "c:\Users\fakem\Desktop\vibecoding\TG_bot\function2.py", line 6, in <module>
+    from event_translations import EVENT_TRANSLATIONS
+  File "c:\Users\fakem\Desktop\vibecoding\TG_bot\event_translations.py", line 12
+    "AwaitingRecipientCity": "Посылка ожидает доставки в город получателя."
+                           ^
+SyntaxError: invalid syntax
+
+2025-06-10 16:12:02,111 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 16:12:02,112 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 16:12:02,112 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 16:12:02,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 16:12:02,340 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:12:02,341 - root - INFO - ✅ Ежедневная задача запланирована на 10:00.
+2025-06-10 16:12:02,342 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:12:02,342 - root - INFO - ✅ Автообновление запущено! Интервал: 4 ч. 0 мин.
+2025-06-10 16:12:02,342 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:12:02,342 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:12:02,343 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:12:02,343 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 16:12:02,395 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 16:12:02,397 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:12:02,397 - telegram.ext.Application - INFO - Application started
+2025-06-10 16:12:12,564 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:12:12,868 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:12:14,075 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/sendMessage "HTTP/1.1 200 OK"
+2025-06-10 16:12:17,321 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:12:17,400 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/sendMessage "HTTP/1.1 200 OK"
+2025-06-10 16:12:19,051 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:12:29,129 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:12:31,536 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:12:31,728 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/sendMessage "HTTP/1.1 200 OK"
+2025-06-10 16:12:33,846 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:12:44,192 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:12:54,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:13:04,609 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:13:14,664 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:13:24,718 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:13:34,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:13:35,069 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:13:38,044 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:13:38,280 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/sendMessage "HTTP/1.1 200 OK"
+2025-06-10 16:13:39,602 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:13:39,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/sendMessage "HTTP/1.1 200 OK"
+2025-06-10 16:13:40,839 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:13:40,927 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/sendMessage "HTTP/1.1 200 OK"
+2025-06-10 16:13:43,488 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:13:53,548 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:14:03,604 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:14:13,660 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:14:23,714 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:14:34,057 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:14:44,114 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:14:54,169 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:15:04,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:15:11,068 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:15:11,069 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-10 16:15:11,069 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-06-10 16:15:11,069 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-10 16:20:25,660 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 16:20:26,099 - root - INFO - ✅ Добавлена команда: /trackozon
+2025-06-10 16:20:26,105 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 16:20:26,105 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 16:20:26,106 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 16:20:27,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 16:20:27,341 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:20:27,341 - root - INFO - ✅ Ежедневная задача запланирована на 10:00.
+2025-06-10 16:20:27,342 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:20:27,342 - root - INFO - ✅ Автообновление запущено! Интервал: 4 ч. 0 мин.
+2025-06-10 16:20:27,342 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:20:27,342 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:20:27,343 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:20:27,343 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 16:20:27,423 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 16:20:27,424 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:20:27,424 - telegram.ext.Application - INFO - Application started
+2025-06-10 16:20:37,606 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:20:47,658 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:20:57,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:21:01,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:21:01,727 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-10 16:21:01,727 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-06-10 16:21:01,727 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-10 16:21:11,588 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 16:21:11,998 - root - INFO - ✅ Добавлена команда: /trackozon
+2025-06-10 16:21:11,999 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 16:21:11,999 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 16:21:11,999 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 16:21:12,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 16:21:12,221 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:21:12,222 - root - INFO - ✅ Ежедневная задача запланирована на 10:00.
+2025-06-10 16:21:12,222 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:21:12,223 - root - INFO - ✅ Автообновление запущено! Интервал: 4 ч. 0 мин.
+2025-06-10 16:21:12,223 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:21:12,223 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:21:12,223 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:21:12,224 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 16:21:12,279 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 16:21:12,281 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:21:12,281 - telegram.ext.Application - INFO - Application started
+2025-06-10 16:21:22,449 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:21:32,516 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:21:38,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:21:38,458 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/sendMessage "HTTP/1.1 200 OK"
+2025-06-10 16:21:48,291 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:21:58,351 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:22:08,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:22:16,260 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 16:22:16,681 - root - INFO - ✅ Добавлена команда: /trackozon
+2025-06-10 16:22:16,681 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 16:22:16,681 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 16:22:16,682 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 16:22:16,908 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 16:22:16,913 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:22:16,914 - root - INFO - ✅ Ежедневная задача запланирована на 10:00.
+2025-06-10 16:22:16,915 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:22:16,915 - root - INFO - ✅ Автообновление запущено! Интервал: 4 ч. 0 мин.
+2025-06-10 16:22:16,915 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:22:16,916 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:22:16,916 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:22:16,916 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 16:22:16,990 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 16:22:16,991 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:22:16,991 - telegram.ext.Application - INFO - Application started
+2025-06-10 16:22:27,160 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:22:37,216 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:22:47,274 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:22:48,039 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:22:48,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/sendMessage "HTTP/1.1 200 OK"
+2025-06-10 16:22:48,580 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/sendMessage "HTTP/1.1 200 OK"
+2025-06-10 16:22:58,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:23:08,155 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:23:18,210 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:23:28,263 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:23:38,315 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:23:48,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:23:58,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:24:08,488 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:24:18,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:24:23,623 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 16:24:24,071 - root - INFO - ✅ Добавлена команда: /trackozon
+2025-06-10 16:24:24,072 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 16:24:24,072 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 16:24:24,072 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 16:24:24,263 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 16:24:24,269 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:24:24,269 - root - INFO - ✅ Ежедневная задача запланирована на 10:01.
+2025-06-10 16:24:24,270 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:24:24,270 - root - INFO - ✅ Автообновление запущено! Интервал: 0 ч. 1 мин.
+2025-06-10 16:24:24,271 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:24:24,271 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:24:24,271 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:24:24,271 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 16:24:24,332 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 16:24:24,333 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:24:24,333 - telegram.ext.Application - INFO - Application started
+2025-06-10 16:24:34,497 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:24:44,553 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:24:54,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:24:59,772 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 16:25:00,221 - root - INFO - ✅ Добавлена команда: /trackozon
+2025-06-10 16:25:00,222 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 16:25:00,222 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 16:25:00,222 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 16:25:00,408 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 16:25:00,413 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:25:00,414 - root - INFO - ✅ Ежедневная задача запланирована на 16:26.
+2025-06-10 16:25:00,415 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:25:00,415 - root - INFO - ✅ Автообновление запущено! Интервал: 0 ч. 1 мин.
+2025-06-10 16:25:00,415 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:25:00,416 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:25:00,416 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:25:00,416 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 16:25:00,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 16:25:00,475 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:25:00,475 - telegram.ext.Application - INFO - Application started
+2025-06-10 16:25:10,657 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:25:20,711 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:25:31,063 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:25:41,117 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:25:51,169 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:26:00,017 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: cron[hour='16', minute='26'], next run at: 2025-06-11 16:26:00 MSK)" (scheduled at 2025-06-10 16:26:00+03:00)
+2025-06-10 16:26:00,019 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: cron[hour='16', minute='26'], next run at: 2025-06-11 16:26:00 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 68, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 16:26:00,430 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 16:27:00 MSK)" (scheduled at 2025-06-10 16:26:00.415668+03:00)
+2025-06-10 16:26:00,431 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 16:27:00 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 78, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 16:26:01,226 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:26:11,295 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:26:21,351 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:26:31,409 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:33:15,808 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 16:33:16,224 - root - INFO - ✅ Добавлена команда: /trackozon
+2025-06-10 16:33:16,224 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 16:33:16,224 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 16:33:16,225 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 16:33:16,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 16:33:16,955 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:33:16,955 - root - INFO - ✅ Ежедневная задача запланирована на 16:26.
+2025-06-10 16:33:16,956 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 16:33:16,956 - root - INFO - ✅ Автообновление запущено! Интервал: 0 ч. 1 мин.
+2025-06-10 16:33:16,957 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:33:16,957 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 16:33:16,957 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:33:16,957 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 16:33:17,150 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 16:33:17,151 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 16:33:17,152 - telegram.ext.Application - INFO - Application started
+2025-06-10 16:33:27,731 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:33:37,927 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:33:48,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:33:58,316 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 16:34:08,520 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:28:01,049 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 17:28:01,491 - root - INFO - ✅ Добавлена команда: /trackozon
+2025-06-10 17:28:01,491 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 17:28:01,492 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 17:28:01,492 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 17:28:01,713 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 17:28:01,720 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 17:28:01,721 - root - INFO - ✅ Ежедневная задача запланирована на 16:26.
+2025-06-10 17:28:01,722 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 17:28:01,722 - root - INFO - ✅ Автообновление запущено! Интервал: 0 ч. 1 мин.
+2025-06-10 17:28:01,723 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 17:28:01,723 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 17:28:01,723 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 17:28:01,723 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 17:28:01,776 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 17:28:01,777 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 17:28:01,777 - telegram.ext.Application - INFO - Application started
+2025-06-10 17:28:11,945 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:28:21,999 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:28:32,055 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:28:42,113 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:28:52,168 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:29:01,727 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:30:01 MSK)" (scheduled at 2025-06-10 17:29:01.722858+03:00)
+2025-06-10 17:29:01,729 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:30:01 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 78, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 17:29:02,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:29:12,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:29:22,341 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:29:32,397 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:29:42,489 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:29:52,550 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:30:01,725 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:31:01 MSK)" (scheduled at 2025-06-10 17:30:01.722858+03:00)
+2025-06-10 17:30:01,726 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:31:01 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 78, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 17:30:02,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:30:12,684 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:30:22,740 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:30:32,805 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:30:42,863 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:30:52,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:31:01,722 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:32:01 MSK)" (scheduled at 2025-06-10 17:31:01.722858+03:00)
+2025-06-10 17:31:01,723 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:32:01 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 78, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 17:31:03,029 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:31:13,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:31:23,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:31:33,226 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:31:37,956 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:31:37,956 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-10 17:31:37,957 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-06-10 17:31:37,957 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-10 17:35:46,347 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 17:35:46,758 - root - INFO - ✅ Добавлена команда: /trackozon
+2025-06-10 17:35:46,759 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 17:35:46,759 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 17:35:46,759 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 17:35:46,973 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 17:35:46,979 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 17:35:46,980 - root - INFO - ✅ Ежедневная задача запланирована на 16:26.
+2025-06-10 17:35:46,981 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 17:35:46,981 - root - INFO - ✅ Автообновление запущено! Интервал: 0 ч. 1 мин.
+2025-06-10 17:35:46,981 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 17:35:46,982 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 17:35:46,982 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 17:35:46,982 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 17:35:47,035 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 17:35:47,036 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 17:35:47,037 - telegram.ext.Application - INFO - Application started
+2025-06-10 17:35:57,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:36:07,252 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:36:17,306 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:36:27,361 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:36:37,416 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:36:41,923 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:36:41,924 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-10 17:36:41,924 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-06-10 17:36:41,924 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-10 17:49:46,822 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 17:49:47,245 - root - INFO - ✅ Добавлена команда: /trackozon
+2025-06-10 17:49:47,246 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 17:49:47,246 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 17:49:47,246 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 17:49:47,457 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 17:49:47,463 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 17:49:47,463 - root - INFO - ✅ Ежедневная задача запланирована на 16:26.
+2025-06-10 17:49:47,464 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 17:49:47,464 - root - INFO - ✅ Автообновление запущено! Интервал: 0 ч. 1 мин.
+2025-06-10 17:49:47,465 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 17:49:47,465 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 17:49:47,465 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 17:49:47,465 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 17:49:47,518 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 17:49:47,519 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 17:49:47,519 - telegram.ext.Application - INFO - Application started
+2025-06-10 17:49:57,697 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:50:07,750 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:50:17,810 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:50:27,878 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:50:37,936 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:50:47,474 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:51:47 MSK)" (scheduled at 2025-06-10 17:50:47.464724+03:00)
+2025-06-10 17:50:47,476 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:51:47 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 78, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 17:50:47,990 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:50:58,045 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:51:08,099 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:51:18,153 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:51:28,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:51:38,263 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:51:47,477 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:52:47 MSK)" (scheduled at 2025-06-10 17:51:47.464724+03:00)
+2025-06-10 17:51:47,478 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:52:47 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 78, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 17:51:48,317 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:51:58,375 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:52:08,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:52:18,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:52:28,536 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:52:38,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:52:47,469 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:53:47 MSK)" (scheduled at 2025-06-10 17:52:47.464724+03:00)
+2025-06-10 17:52:47,470 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:53:47 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 78, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 17:52:48,648 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:52:58,700 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:53:08,755 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:53:18,809 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:53:28,864 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:53:38,939 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:53:47,478 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:54:47 MSK)" (scheduled at 2025-06-10 17:53:47.464724+03:00)
+2025-06-10 17:53:47,479 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:54:47 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 78, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 17:53:49,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:53:59,055 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:54:09,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:54:19,201 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:54:29,255 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:54:39,310 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:54:47,471 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:55:47 MSK)" (scheduled at 2025-06-10 17:54:47.464724+03:00)
+2025-06-10 17:54:47,472 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:55:47 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 78, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 17:54:49,365 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:54:59,421 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:55:09,494 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:55:19,549 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:55:29,613 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:55:39,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:55:47,478 - apscheduler.executors.default - INFO - Running job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:56:47 MSK)" (scheduled at 2025-06-10 17:55:47.464724+03:00)
+2025-06-10 17:55:47,479 - apscheduler.executors.default - ERROR - Job "on_startup.<locals>.<lambda> (trigger: interval[0:01:00], next run at: 2025-06-10 17:56:47 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\fakem\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\apscheduler\executors\base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fakem\Desktop\vibecoding\TG_bot\Bot_main.py", line 78, in <lambda>
+    lambda: asyncio.create_task(send_trackozon(app.bot, CHAT_ID)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 381, in create_task
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2025-06-10 17:55:49,732 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getUpdates "HTTP/1.1 200 OK"
+2025-06-10 17:56:01,707 - root - INFO - ✅ Добавлена команда: /test
+2025-06-10 17:56:02,138 - root - INFO - ✅ Добавлена команда: /trackozon
+2025-06-10 17:56:02,139 - root - INFO - ✅ Добавлена команда: /hello
+2025-06-10 17:56:02,139 - root - INFO - ✅ Добавлена команда: /hello_now
+2025-06-10 17:56:02,139 - root - INFO - 🚀 Бот запущен и готов к работе!
+2025-06-10 17:56:02,383 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/getMe "HTTP/1.1 200 OK"
+2025-06-10 17:56:02,389 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 17:56:02,389 - root - INFO - ✅ Ежедневная задача запланирована на 16:26.
+2025-06-10 17:56:02,390 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-10 17:56:02,390 - root - INFO - ✅ Автообновление запущено! Интервал: 0 ч. 1 мин.
+2025-06-10 17:56:02,390 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 17:56:02,391 - apscheduler.scheduler - INFO - Added job "on_startup.<locals>.<lambda>" to job store "default"
+2025-06-10 17:56:02,391 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 17:56:02,391 - root - INFO - ✅ Планировщик запущен!
+2025-06-10 17:56:02,572 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7719473155:AAEg3s2bPK3c_2am0IJt28zc3R_kfEmvBF4/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-10 17:56:02,573 - apscheduler.scheduler - INFO - Scheduler started
+2025-06-10 17:56:02,573 - telegram.ext.Application - INFO - Application started
